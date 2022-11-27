@@ -7,7 +7,7 @@
 
 auto vector_data() { return std::vector<int>{1, 2, 3, 4, 5}; }
 
-auto ranges_pipes() -> std::vector<int> {
+auto ranges_pipes() {
   auto r = vector_data()
   | std::ranges::views::drop(1)
   | std::ranges::views::take(2)
