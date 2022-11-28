@@ -1,5 +1,5 @@
 CC = g++
-OBJS = src/*.cpp
+OBJS = src/main_4.cpp
 OBJ = bin/template
 CFLAGS = -std=gnu++20
 LIBS = -lpthread
