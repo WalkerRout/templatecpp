@@ -65,6 +65,8 @@ struct Mat {
   }
 
   ~Mat() {
+    rows = 0;
+    cols = 0;
     delete[] data;
   }
 
